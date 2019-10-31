@@ -1,5 +1,5 @@
 //import react
-import * as React from 'react';
+import React from 'react';
 
 //interfaces for content component
 interface ContentInterface {

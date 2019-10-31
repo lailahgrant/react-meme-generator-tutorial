@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 //interfaces for result component
 interface ResultInterface {

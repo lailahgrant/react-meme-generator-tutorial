@@ -1,5 +1,5 @@
 //import react
-import * as React from 'react';
+import React from 'react';
 
 //interface for form component
 interface FormInterface {
