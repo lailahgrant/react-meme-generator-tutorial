@@ -21,6 +21,8 @@ const Form = (props : FormInterface) => {
         <div className="form">
             
             <div className="form_inputs">  
+
+            <h3>Meme Generator</h3>
             
             {/* input for the text at the top */}
             <input 

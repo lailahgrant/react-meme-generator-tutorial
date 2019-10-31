@@ -1,6 +1,7 @@
 //import react, dom-to-image-more
-import * as React from "react";
-import dotoimage from 'dom-to-image-more';
+import * as React from 'react';
+
+import domtoimage from 'dom-to-image-more';
 
 //import components
 import Content from './components/content';
@@ -10,7 +11,7 @@ import Result from './components/result';
 
 //import styles
 import './styles/styles.css';
-import { async } from "q";
+
 
 //App component
 function App(){
@@ -75,7 +76,7 @@ function App(){
     }
 
     //generate meme image from the content of 'content' div
-    dotoimage.toPng(contentContainerRef.current).then((dataUrl) => {
+    domtoimage.toPng(contentContainerRef.current).then((dataUrl: string) => {
       //create new image 
       const img =new Image()
 
@@ -144,3 +145,5 @@ function App(){
 
 
 }
+
+export default App;
