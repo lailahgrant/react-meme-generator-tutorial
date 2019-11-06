@@ -1,5 +1,4 @@
-import React from 'react';
-
+import * as React from 'react';
 //interfaces for result component
 interface ResultInterface {
     resultContainerRef : React.RefObject<any>

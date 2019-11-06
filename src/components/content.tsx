@@ -1,6 +1,5 @@
 //import react
-import React from 'react';
-
+import * as React from 'react';
 //interfaces for content component
 interface ContentInterface {
     activeImage: string;

@@ -1,5 +1,5 @@
 //import react, dom-to-image-more
-import React from 'react';
+import * as React from 'react';
 
 import domtoimage from 'dom-to-image-more';
 
